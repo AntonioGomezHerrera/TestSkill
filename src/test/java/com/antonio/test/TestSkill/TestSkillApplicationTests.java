@@ -42,7 +42,7 @@ public class TestSkillApplicationTests extends Mapping {
 	
 	@After
 	public void tearDown() {
-		
+		driver.quit();
 	}
 
 }
